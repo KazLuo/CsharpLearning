@@ -8,6 +8,7 @@ using System;
 class Program
 {
 	static int temperture = 50;
+    //注意這邊要使用string，詳細如以下說明
 	static string stateOfMatter;
 
 	static void Main(string[] args)
@@ -39,3 +40,28 @@ class Program
 }
 
 ```
+
+![](https://i.imgur.com/JNA7BHf.png)
+
+ChatGPT
+在精簡 if else 用法中， stateOfMatter 的數據類型為 int，但賦值的是字串（string）類型的值。因此，需要將 stateOfMatter 的數據類型改為 string。
+
+以下是修正後的程式碼：
+
+```csharp
+Copy code
+using System;
+
+class Program
+{
+    static int temperture = 100;
+    static string stateOfMatter;
+
+    static void Main(string[] args)
+    {
+        stateOfMatter = temperture < 0 ? "ice" : temperture > 0 && temperture < 100 ? "water" : "air";
+        Console.WriteLine($"{stateOfMatter}");
+    }
+}
+```
+這樣程式就可以正確地編譯和運行。
