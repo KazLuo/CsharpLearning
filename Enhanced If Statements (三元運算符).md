@@ -1,7 +1,7 @@
 # Enhanced If Statements (三元運算符)
 ###### tags: `if`
 
-```csharp=
+```csharp
 // See https://aka.ms/new-console-template for more information
 using System;
 
