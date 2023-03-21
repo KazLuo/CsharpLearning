@@ -1,7 +1,7 @@
 #  Switch Case
 ###### tags: `switch` `case` `csharp10` `.NET 6`
 
-```csharp=
+```csharp
 // See https://aka.ms/new-console-template for more information
 
 
