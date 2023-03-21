@@ -1,6 +1,6 @@
 # Highscore (use if else
 ###### tags: `if`
-```csharp=
+```csharp
 // See https://aka.ms/new-console-template for more information
 using System;
 
