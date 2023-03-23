@@ -41,7 +41,7 @@ class Program
 
 ```
 
-![](https://i.imgur.com/JNA7BHf.png)
+
 
 
 在精簡 if else 用法中， stateOfMatter 的數據類型為 int，但賦值的是字串（string）類型的值。因此，需要將 stateOfMatter 的數據類型改為 string。
@@ -70,7 +70,7 @@ class Program
 
 ### Practice
 
-```charp
+```csharp
 // See https://aka.ms/new-console-template for more information
 using System;
 using System.ComponentModel;
