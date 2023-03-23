@@ -1,4 +1,4 @@
-# C# Value & Reference type(需再研究)
+# C# Value & Reference type
 * 解釋說明 C#中 Value type及 Reference type的差異
 
 C# 中的 Value Type 和 Reference Type 是兩種不同的資料型別，它們有以下主要區別：
