@@ -43,7 +43,7 @@ class Program
 
 ![](https://i.imgur.com/JNA7BHf.png)
 
-ChatGPT
+
 在精簡 if else 用法中， stateOfMatter 的數據類型為 int，但賦值的是字串（string）類型的值。因此，需要將 stateOfMatter 的數據類型改為 string。
 
 以下是修正後的程式碼：
