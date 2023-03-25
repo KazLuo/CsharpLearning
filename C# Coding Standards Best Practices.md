@@ -213,12 +213,12 @@ public interface IGroupable
 
 依據主要類別來命名源檔案。例外情況：部分類別的檔案名稱反映其來源或目的，例如設計者、生成的等等。
 ```csharp
-// 位於 Task.cs
+// Located in Task.cs
 public partial class Task
 {
 //...
 }
-// 位於 Task.generated.cs
+// Located in Task.generated.cs
 public partial class Task
 {
 //...
