@@ -45,7 +45,7 @@ public class UserLog
 
 ## 識別符(Identifiers)
 
-不使用匈牙利命名法或任何其他類型識別符
+不使用匈牙利(Hungarian)命名法或任何其他類型識別符
 
 ```csharp
 Copy code
