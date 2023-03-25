@@ -143,7 +143,7 @@ Boolean isSaved;
 為什麼：這與Microsoft .NET Framework保持一致，使代碼更容易閱讀。
 ```
 
-## 隱式類型
+## 隱式類型(Implicit Types)
 
 使用隱式類型var來聲明局部變量。
 例外：基本類型（int，string，double等）使用預定義的名稱。
@@ -159,7 +159,7 @@ bool isCompleted;
 為什麼：減少混亂，特別是對於複雜的泛型類型。在Visual Studio工具提示中可以輕鬆檢測到類型。
 ```
 
-## 名詞類名稱
+## 名詞類名稱(Noun Class Names)
 
 使用名詞或名詞短語來為類命名。
 ```csharp
