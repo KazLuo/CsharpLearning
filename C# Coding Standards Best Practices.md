@@ -261,9 +261,6 @@ public class Account
 {
 public static string BankName;
 public static decimal Reserves;
-
-csharp
-Copy code
 public string Number {get; set;}
 public DateTime DateOpened {get; set;}
 public DateTime DateClosed {get; set;}
