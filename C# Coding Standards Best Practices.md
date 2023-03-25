@@ -261,6 +261,7 @@ public class Account
 {
 public static string BankName;
 public static decimal Reserves;
+    
 public string Number {get; set;}
 public DateTime DateOpened {get; set;}
 public DateTime DateClosed {get; set;}
@@ -298,7 +299,7 @@ None = 0,
 Top = 1,
 Right = 2,
 Bottom = 4,
-Left
+Left = 8
 }
 ```
 原因：與 Microsoft  .NET Framework 一致，使代碼更易於閱讀。多個標誌，因為枚舉可以包含多個值（使用按位“或”）。
