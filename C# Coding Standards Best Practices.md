@@ -245,9 +245,9 @@ namespace Product.Layer.Module.Group
 // 正確
 class Program
 {
-static void Main(string[] args)
-{
-}
+    static void Main(string[] args)
+    {
+    }
 }
 ```
 原因：Microsoft 有不同的標準，但開發人員普遍偏好垂直對齊的花括號。
