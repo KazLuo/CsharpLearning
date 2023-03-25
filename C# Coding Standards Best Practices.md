@@ -234,8 +234,9 @@ public partial class Task
 namespace Company.Product.Module.SubModule
 namespace Product.Module.Component
 namespace Product.Layer.Module.Group
-原因：與 Microsoft 的 .NET Framework 一致。維護程式碼庫的良好組織。
+
 ```
+原因：與 Microsoft 的 .NET Framework 一致。維護程式碼庫的良好組織。
 
 ## 花括號(Curly Brackets)
 
