@@ -57,6 +57,7 @@ string name;
 int iCounter;
 string strName;
 ```
+
 為什麼：與Microsoft的.NET Framework一致。此外，Visual Studio IDE非常容易通過工具提示來確定變量的類型。最好避免在識別符中使用類型指標。
 
 ## 常量(Constants)
@@ -123,9 +124,9 @@ public TimeSpan time_Left;
 
 // 例外
 private DateTime _registrationDate;
-為什麼：這與Microsoft .NET Framework保持一致，使代碼更容易閱讀（不含'嘶嘶聲'）。也可以避免底線的壓力，即無法看到底線。
-```
 
+```
+為什麼：：與 Microsoft 的 .NET Framework 一致。它使代碼閱讀起來更自然（沒有“連線”）。也避免了下劃線壓力，即無法看到下劃線。
 ## 類型名稱(Type Names)
 
 使用預定義的類型名稱而不是系統類型名稱，例如Int16，Single，UInt64等。
