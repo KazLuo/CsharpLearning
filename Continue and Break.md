@@ -1,5 +1,9 @@
-#Continue & Break
+# Continue & Break
 ###### tags: `continue` `break`
+
+Continue & Break為控制迴圈(Loop)中斷繼續之方式
+目前得知僅能用在迴圈使用
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -86,3 +90,32 @@ foreach (int num in numbers)
 Console.WriteLine($"除了负数以外的所有数字的总和为：{sum}");
 ```
 在上面的示例代码中，当 foreach 循环迭代到 -2 和 -4 时，它会执行 continue 语句并跳过当前迭代。这意味着这些负数不会被包括在总和中。因此，最后输出的结果是：除了负数以外的所有数字的总和为：9。
+
+## 有關Break的細節
+一開始我只覺得Break僅用於中斷當下迴圈，但在練習題[Loop Practice](/jdRrRwafRuGUoHMxolCGNA)中研究過程有發現其實Break他所中斷的僅為內層迴圈，而外層迴圈則不受影響
+
+```chsarp
+for (int i = 1; i <= 3; i++)
+{
+    Console.WriteLine("外層迴圈：i = " + i);
+
+    for (int j = 1; j <= 3; j++)
+    {
+        Console.WriteLine("內層迴圈：j = " + j);
+
+        if (i == 2 && j == 2)
+        {
+            Console.WriteLine("在 j == 2 時，中斷內層迴圈");
+            break;
+        }
+    }
+}
+
+Console.WriteLine("程式結束");
+
+```
+輸出結果為
+![](https://hackmd.io/_uploads/HkvRRiG-2.png)
+
+
+
