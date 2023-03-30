@@ -2,7 +2,7 @@
 ###### tags: `continue` `break`
 
 Continue & Break為控制迴圈(Loop)中斷繼續之方式
-目前得知僅能用在迴圈使用
+(非Case中的break)
 
 ```csharp
 using System;
