@@ -56,6 +56,6 @@ namespace ConsoleApp1
             myObject.MyMethod();
         }
     }
-}
+} 
 ```
 在這個示例中，ConsoleApp1 程式集引用了 ClassLibrary1 程式集。這樣，MyClass 就可以在 ConsoleApp1 程式集中使用了。
