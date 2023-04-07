@@ -1,5 +1,8 @@
 # internal class(內部類型)
 
+[![hackmd-github-sync-badge](https://hackmd.io/bUGxsVypRCWPNO6V9PLp0A/badge)](https://hackmd.io/bUGxsVypRCWPNO6V9PLp0A)
+
+
 ###### tags: `internal` `class`
 
 
