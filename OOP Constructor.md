@@ -138,7 +138,7 @@ int value = myObj.GetMyValue(); // value 的值為 0。
 ```
 在上面的代碼中，MyClass 類沒有定義任何 Constructor，因此編譯器會自動生成一個默認 Constructor。在使用 new 關鍵字創建 MyClass 對象時，默認 Constructor 會自動調用並初始化 myValue 屬性，其值為 0。
 
-**6. 依據需求，類別內可以有多個建構函式(多載overloading)**
+**6. 依據需求，類別內可以有多個建構函式(多載overloading)** 
 
 在 C# 中，一個類別可以定義多個 Constructor，每個 Constructor 可以有不同的參數列表。這種為同一個類別定義多個 Constructor 的技術被稱為 Constructor Overloading（建構函式多載）。
 
