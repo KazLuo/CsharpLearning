@@ -9,7 +9,7 @@ https://learn.microsoft.com/zh-tw/visualstudio/ide/visual-csharp-code-snippets?v
 
 | 名稱 (或捷徑) | 描述 | 插入程式碼片段的有效位置  |
 |-|-|-|
-| :::success#if | 建立 #if 指示詞和 #endif 指示詞。 | 任何位置。  |
+| #if | 建立 #if 指示詞和 #endif 指示詞。 | 任何位置。  |
 | #region | 建立 #region 指示詞和 #endregion 指示詞。 | 任何位置。  |
 | ~ | [建立包含類別的完成項 (解構函式)。](https://learn.microsoft.com/zh-tw/dotnet/csharp/programming-guide/classes-and-structs/destructors) | 在類別內部。  |
 | attribute | [建立衍生自 Attribute 之類別的宣告。](https://learn.microsoft.com/zh-tw/dotnet/api/system.attribute) | 在命名空間 (包含全域命名空間)、類別或結構內部。  |
