@@ -130,13 +130,13 @@ namespace MemberPractice
 +------------------------------------------------+
 |                   Members                      |
 +------------------------------------------------+
-| - name : string                          |
+| - name : string                                |
 | - jobTitle   : string                          |
 | - salary     : int                             |
 | + age        : int                             |
 +------------------------------------------------+
-| + Salary   : int { get; set; }            |
-| + Introduction(isFriend: bool) : void           |
+| + Salary   : int { get; set; }                 |
+| + Introduction(isFriend: bool) : void          |
 +------------------------------------------------+
 ```
 在這個類別圖中，有一個名為 Members 的類別，它有三個私有成員（memberName、jobTitle 和 salary）和一個公共成員（age）。Members 類別還有一個名為 Salary 的屬性，以及一個名為 Introduction 的公共方法。Salary 屬性包含 get 和 set 方法，用於公開地訪問和修改 salary 變數。Introduction 方法用於介紹會員的基本信息，如果傳入的 isFriend 參數為 true，則會顯示會員的薪水信息。
